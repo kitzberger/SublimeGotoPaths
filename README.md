@@ -1,6 +1,6 @@
 # Goto paths
 
-Plugin for Sublime Text 3.
+Plugin for Sublime Text 3+4.
 
 ## Features
 
