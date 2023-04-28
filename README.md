@@ -1,18 +1,20 @@
-# Laravel path highlighter
+# Goto paths
 
 Plugin for Sublime Text 3.
 
 ## Features
 
-### Highlights laravel paths
+### Clickable paths
 
-* Highlights paths like `backpack::crud.partials.xxx`
+* Highlights paths like
+  * `backpack::crud.partials.xxx`
+  * `EXT:my_extension/Resources/Private/Templates/MyTemplate.html`
 * Provides a command to open such a file (can be triggered by click or shortcut)
 
 ## Key binding
 
 ```User/Default (Linux).sublime-keymap
-{ "keys": ["ctrl+alt+enter"], "command": "open_laravel_path_under_cursor" }
+{ "keys": ["ctrl+alt+enter"], "command": "open_path_under_cursor" }
 ```
 
 ## Mouse binding
@@ -24,7 +26,7 @@ Plugin for Sublime Text 3.
         "count": 1,
         "modifiers": ["ctrl"],
         "press_command": "drag_select",
-        "command": "open_laravel_path_under_cursor"
+        "command": "open_path_under_cursor"
     }
 ]
 ```
